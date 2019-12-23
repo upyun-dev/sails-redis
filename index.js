@@ -36,11 +36,10 @@ module.exports = {
 
     // Miscellaneous options:
     // - - - - - - - - - - - - - - - - - - - -
-    return_buffers: false,//eslint-disable-line camelcase
-    detect_buffers: false,//eslint-disable-line camelcase
-    socket_nodelay: true,//eslint-disable-line camelcase
-    no_ready_check: false,//eslint-disable-line camelcase
-    enable_offline_queue: true//eslint-disable-line camelcase
+    dropBufferSupport: false,//eslint-disable-line camelcase
+    noDelay: true,//eslint-disable-line camelcase
+    enableReadyCheck: true,//eslint-disable-line camelcase
+    enableOfflineQueue: true//eslint-disable-line camelcase
     // - - - - - - - - - - - - - - - - - - - -
   },
 

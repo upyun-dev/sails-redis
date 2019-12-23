@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/balderdashy/sails-redis.git"
+    "url": "https://github.com/upyun-dev/sails-redis.git"
   },
   "keywords": [
     "redis",
@@ -56,7 +56,7 @@
     "node": "^6.0"
   },
   "dependencies": {
-    "machinepack-redis": "^2.0.0"
+    "machinepack-redis": "github:upyun-dev/machinepack-redis"
   },
   "devDependencies": {
     "captains-log": "^2.0.1",
